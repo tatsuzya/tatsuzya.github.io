@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Hangman.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- custom js -->
+  <script src="model/model.js"></script>
+  <script src="controller/controller.js"></script>
+  <script src="view/view.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+
+</head>
+
+<body>
+  <div id="userpanel">
+    <div id="displayname"></div>
+    <button id="btnLogout">log out</button>
+    <button id="save">Save Progress</button>
+    <button id="ranking">Ranking </button>
+  </div>
+  <div class="wrapper">
+    <h1>Hangman Game</h1>
+    <div id="hint">
+    </div>
+    <div id="input">
+    </div>
+    <div id="lives">
+    </div>
+    <div id="keys">
+    </div>
+    <div id='button'>
+      <button id="replay" type="button">replay</button>
+    </div>
+    <div id="score">
+    </div>
+    <div id="test">
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+  <script src = "string/string.js"></script>
+  <script src = "model/model.js"></script>
+  <script src = "view/view.js"></script>
+  <script src = "controller.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome</h1>
+    <div class="field">
+      <div class="form-group" id="user">
+        <label>Username</label>
+        <input id="txtUser" , type="text" ,placeholder="Username">
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input id="txtEmail" , type="email" ,placeholder="Email Address">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input id="txtPass" , type="password" ,placeholder="Password">
+      </div>
+      <div class="link">
+        <a href id="new"> New User?</a>
+        <a href id="exist"> Sign In</a>
+      </div>
+      <div class="btn">
+        <button id="btnLogin">log in</button>
+        <button id="btnSignup">sign up</button>
+      </div>
+      <div id="msg">
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

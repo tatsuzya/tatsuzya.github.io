@@ -1,0 +1,24 @@
+body {
+  font-family:"Lucida Console", Monaco, monospace !important;
+  background-color: #36393E !important;
+  color: white !important;
+}
+
+#rank-title {
+  margin-top:25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#rankpanel {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#rank-category {
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  border-width:80%;
+}

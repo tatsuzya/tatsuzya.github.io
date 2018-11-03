@@ -1,0 +1,53 @@
+body{
+  font-family:"Lucida Console", Monaco, monospace !important;
+  background-color: #36393E !important;
+  color:white !important;
+}
+h1{
+  margin-top:20px !important;
+  text-align: center;
+}
+.field {
+  text-align: center;
+  margin-top: 30%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#btnSignup {
+  display: none;
+}
+
+#exist {
+  display: none;
+}
+
+button {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #ed3330;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+}
+
+button:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+#user{
+  display:none;
+}
+
+#btnLogout{
+  display:inline-block;
+}
